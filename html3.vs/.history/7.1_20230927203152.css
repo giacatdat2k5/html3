@@ -1,0 +1,392 @@
+@media all and (min-width: 992px){
+*{
+    margin:0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#header{
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 20px;
+    width: 120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.menu{
+    width: 510px;
+    display: flex;
+}
+.items{
+    width: 90px;
+    padding: 10px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.search{
+    width: 30px;
+    padding: 10px;
+}
+#content{
+    width: 100%;
+    height: 430px;
+    background-color:whitesmoke;
+    display: flex;
+}
+.left{
+    width: 38%;
+    height: 100%;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.center{
+    width: 26%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.right{
+    width: 38%;
+    height: 100%;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.imageleft{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.iamge1{
+    background-image: url('image5.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 160px;
+    display:flex;
+    align-items: end;
+}
+.iamge2{
+    background-image: url('image3.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 160px;
+    display:flex;
+    align-items: end;
+}
+.edit{
+    width: 100%;
+    height: 80%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1));
+    color:white;
+    display:flex;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.imagecenter{
+    width: 80%;
+    height:372px;
+    align-items:center;
+    justify-content: center;
+}
+.iamge3{
+    background-image: url('anh dọc.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items: end; 
+}
+.iamgeright{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.iamge4{
+    background-image: url('anh ngang 1.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 160px;
+    display:flex;
+    align-items: end;
+}
+.iamge5{
+    background-image: url('ảnh ngnag 2.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 160px;
+    display:flex;
+    align-items: end;
+}
+#header2{
+    width: 100%;
+    height: 6em;
+    font-size:xx-large;
+    display: flex;
+    align-items: center;
+    padding-left: 182px;
+}
+#content2{
+    width: 100%;
+    height: 1950px;
+    display: flex;
+    justify-content: center
+}
+.centercontent2{
+    width:1032px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+}
+.ccitems{
+    width: 33.33333%;
+    height: 33.333333%;
+}
+.picture{
+    width: 90%;
+    height: 200px;
+    background-image: url('anh ngang 1.jpeg');
+    background-size: cover;
+    border-radius: 5%;
+}
+.tag{
+    width: 90%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.tagitem{
+    width: 70px;
+    height: 20px;
+    color: white;
+    background-color: darkcyan;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    padding-left: 20px;
+    font-size: 21px;
+}
+.author{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.avt{
+    width: 50px;
+    height: 50px;
+    background-image: url('pngtree-hand-draw-person-avatar-icon-vector-png-image_7102689.png');
+    background-size: cover;
+    border-radius: 50%;
+}
+.name{
+    width: 260px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+.c{
+    color: #ccc;
+}
+.lorem{
+    width: 90%;
+    height: 185px;
+    display: flex;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight:lighter;
+}
+.read{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    padding-left: 20px;
+    color:#00CCFF;
+}
+.page{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.kofull{
+    color:black;
+    background-color: white;
+    margin:2px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.full{
+    color:white;
+    background-color: #3399FF;
+    margin:2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content3{
+    width: 100%;
+    height: 650px;
+    background-color:whitesmoke;
+    display: flex;
+}
+.content3left{
+    width: 55%;
+    height: 100%;
+    display:flex ;
+    flex-wrap: wrap;
+}
+.content3right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.c3l1{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.c3l4{
+    width: 586px;
+    height: 75%;
+    background-image: url('ảnh ngnag 2.jpeg');
+    background-size: cover;
+    margin: 25px;
+}
+.c3l2{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+}
+.c3l3{
+    width: 35%;
+    height: 76.6%;
+    background-image: url('ảnh vuông.jpeg');
+    background-size: cover;
+    margin: 25px;
+}
+.c3r{
+    width: 70%;
+    height: 564px;
+    background-image: url('ảnh dọc đjep .jpeg');
+    background-size: cover;
+}
+.edit2{
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1));
+    color:white;
+    display:flex;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+.edit3{
+    height: 91%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1));
+    color:white;
+    display:flex;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+.edit4{
+    height: 96%;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 1));
+    color:white;
+    display:flex;
+    align-items: end;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+.footer{
+    width: 100%;
+    height: 400px;
+}
+.ft1{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-items: end;
+    font-size: x-large;
+    color: black;
+    justify-content: center;
+}
+.ft2{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.ft3{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    width: 150px;
+    height: 30px;
+}
+.sub{
+    width: 60px;
+    height: 30px;
+    background-color: #3399FF;
+    color: white;
+}
+}

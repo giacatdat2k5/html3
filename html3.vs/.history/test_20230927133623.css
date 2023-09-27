@@ -1,0 +1,33 @@
+/* Đối với phần tử bao quanh hình ảnh */
+.image-container {
+    position: relative;
+    overflow: hidden;
+    width: 300px; /* Đặt chiều rộng của phần tử bao quanh hình ảnh */
+    height: 200px; /* Đặt chiều cao của phần tử bao quanh hình ảnh */
+  }
+  
+  /* Hình ảnh ban đầu */
+  .blur-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Pseudo-element ::before để tạo lớp mờ từ cạnh dưới */
+  .blur-image::before {
+    content: "";
+    position: absolute;
+    bottom: 0; /* Đặt lớp mờ ở cạnh dưới */
+    left: 0;
+    right: 0;
+    height: 50%; /* Chiều cao của lớp mờ (ở phần dưới) */
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7)); /* Tạo gradient mờ từ transparent lên màu đen */
+    pointer-events: none; /* Ngăn lớp mờ từ việc chặn các sự kiện chuột */
+    opacity: 0; /* Lúc ban đầu, lớp mờ không hiển thị */
+    transition: opacity 0.3s ease; /* Áp dụng hiệu ứng mờ dần trong 0.3 giây */
+  }
+  
+  /* Hiển thị lớp mờ khi di chuột qua hình ảnh */
+  .image-container:hover .blur-image::before {
+    opacity: 1; /* Khi di chuột qua, hiển thị lớp mờ với độ trong suốt là 1 */
+  }
+  
